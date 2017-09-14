@@ -1,2 +1,2 @@
-# suggetsion
-suggetsion
+# suggestion
+suggestion
