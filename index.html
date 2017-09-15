@@ -7,13 +7,13 @@
 </head>
 <body>
     <div style="padding: 50px;">
-        <input type="text" id="suggestion">
+        <input type="text" id="suggestion" placeholder="search" class="suggestion">
     </div>
     <script src="index.js"></script>
     <script>
-
-        Suggestion('#suggestion');
-
+        Suggestion('#suggestion', { dataUrl: '' }).selected(function(value){
+            console.log(value);
+        });
     </script>
 </body>
 </html>
